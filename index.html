@@ -20,12 +20,18 @@
     <div class="container nav__inner">
       <a href="#hero" class="nav__logo">UNPARADOX</a>
       <ul class="nav__links" id="navLinks">
-        <li><a href="#about" class="nav__link">About</a></li>
-        <li><a href="#services" class="nav__link">Services</a></li>
-        <li><a href="#value" class="nav__link">Why Me</a></li>
-        <li><a href="#experience" class="nav__link">Experience</a></li>
-        <li><a href="#contact" class="nav__link nav__link--cta">Get in Touch</a></li>
+        <li><a href="#about" class="nav__link" data-i18n="nav_about">About</a></li>
+        <li><a href="#services" class="nav__link" data-i18n="nav_services">Services</a></li>
+        <li><a href="#value" class="nav__link" data-i18n="nav_value">Why Me</a></li>
+        <li><a href="#experience" class="nav__link" data-i18n="nav_experience">Experience</a></li>
+        <li><a href="#who" class="nav__link" data-i18n="nav_who">Clients</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta" data-i18n="nav_cta">Get in Touch</a></li>
       </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn lang-btn--active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="ja">JP</button>
+      </div>
       <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
         <span></span>
         <span></span>
@@ -38,10 +44,11 @@
   <section class="hero" id="hero">
     <div class="container hero__inner">
       <div class="hero__text reveal">
-        <p class="hero__eyebrow">Tokyo-based · JP · EN · RU</p>
-        <h1 class="hero__heading">I help businesses<br /><em>communicate</em>, sell, and<br />represent their brand<br />in Japan.</h1>
-        <p class="hero__sub">Multilingual support in Japanese, English, and Russian — from client communication to on-the-ground representation.</p>
-        <a href="#contact" class="btn btn--primary">Get in Touch</a>
+        <p class="hero__eyebrow" data-i18n="hero_eyebrow">Tokyo-based · JP · EN · RU</p>
+        <h1 class="hero__heading" data-i18n-html="hero_heading">I help businesses<br /><em>communicate</em>, sell, and<br />represent their brand<br />in Japan.</h1>
+        <p class="hero__sub" data-i18n="hero_sub">Multilingual support in Japanese, English, and Russian — from client communication to on-the-ground representation.</p>
+        <p class="hero__motto" data-i18n="hero_motto">In a world of abundant choices, it makes perfect sense to choose UNPARADOX.</p>
+        <a href="#contact" class="btn btn--primary" data-i18n="hero_cta">Get in Touch</a>
       </div>
       <div class="hero__photo reveal reveal--right">
         <img src="assets/headshot.jpg" alt="Professional headshot" width="800" height="1248" loading="eager" />
@@ -53,13 +60,13 @@
   <section class="section section--light" id="about">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__label">About</span>
-        <h2 class="section__title">A bridge between cultures, languages, and people.</h2>
+        <span class="section__label" data-i18n="about_label">About</span>
+        <h2 class="section__title" data-i18n="about_title">A bridge between cultures, languages, and people.</h2>
       </div>
       <div class="about__body reveal">
-        <p>I'm a Tokyo-based multilingual professional working in Japanese, English, and Russian. I've spent the past 9 years in international environments, where communication across cultures isn't just important — it's everything.</p>
-        <p>What I naturally became good at is helping people understand each other, build trust, and move conversations forward — whether in meetings, negotiations, or everyday communication. I adapt quickly, I'm comfortable in new environments, and I'm naturally good at building connections.</p>
-        <p>This often turns into real business results — whether that's building relationships, supporting negotiations, or helping close deals.</p>
+        <p data-i18n="about_p1">I'm a Tokyo-based multilingual professional working in Japanese, English, and Russian. I've spent the past 9 years in international environments, where communication across cultures isn't just important — it's everything.</p>
+        <p data-i18n="about_p2">What I naturally became good at is helping people understand each other, build trust, and move conversations forward — whether in meetings, negotiations, or everyday communication. I adapt quickly, I'm comfortable in new environments, and I'm naturally good at building connections.</p>
+        <p data-i18n="about_p3">This often turns into real business results — whether that's building relationships, supporting negotiations, or helping close deals.</p>
       </div>
     </div>
   </section>
@@ -68,37 +75,37 @@
   <section class="section section--tinted" id="services">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__label">Services</span>
-        <h2 class="section__title">What I do</h2>
+        <span class="section__label" data-i18n="services_label">Services</span>
+        <h2 class="section__title" data-i18n="services_title">What I do</h2>
       </div>
       <div class="services__grid">
 
         <article class="card reveal">
           <div class="card__number">01</div>
-          <h3 class="card__title">Translation &amp; Interpretation</h3>
-          <p class="card__body">I provide translation and interpretation in Japanese, English, and Russian. With experience in corporate business settings, international events, and media, I understand how important accuracy and nuance are — especially in business contexts.</p>
+          <h3 class="card__title" data-i18n="card1_title">Translation &amp; Interpretation</h3>
+          <p class="card__body" data-i18n="card1_body">I provide translation and interpretation in Japanese, English, and Russian. With experience in corporate business settings, international events, and media, I understand how important accuracy and nuance are — especially in business contexts.</p>
         </article>
 
         <article class="card reveal">
           <div class="card__number">02</div>
-          <h3 class="card__title">Communication, Sales &amp; Representation</h3>
-          <p class="card__body">I support businesses not just with language, but with communication that leads somewhere — whether that's building relationships, creating opportunities, or closing deals.</p>
+          <h3 class="card__title" data-i18n="card2_title">Communication, Sales &amp; Representation</h3>
+          <p class="card__body" data-i18n="card2_body">I support businesses not just with language, but with communication that leads somewhere — whether that's building relationships, creating opportunities, or closing deals.</p>
           <ul class="card__list">
-            <li>Join client meetings (online or in person)</li>
-            <li>Support negotiations</li>
-            <li>Communicate with clients in JP, EN, or RU</li>
-            <li>On-site representation at events, expos, and conferences in Tokyo</li>
+            <li data-i18n="card2_li1">Join client meetings (online or in person)</li>
+            <li data-i18n="card2_li2">Support negotiations</li>
+            <li data-i18n="card2_li3">Communicate with clients in JP, EN, or RU</li>
+            <li data-i18n="card2_li4">On-site representation at events, expos, and conferences in Tokyo</li>
           </ul>
-          <p class="card__note">Especially helpful if you're based overseas, don't have time to attend events, or want someone who can confidently represent your brand on the ground.</p>
+          <p class="card__note" data-i18n="card2_note">Especially helpful if you're based overseas, don't have time to attend events, or want someone who can confidently represent your brand on the ground.</p>
         </article>
 
         <article class="card reveal">
           <div class="card__number">03</div>
-          <h3 class="card__title">Communication Support</h3>
-          <p class="card__body">Sometimes small changes in wording make a big difference in how your message is received.</p>
+          <h3 class="card__title" data-i18n="card3_title">Communication Support</h3>
+          <p class="card__body" data-i18n="card3_body">Sometimes small changes in wording make a big difference in how your message is received.</p>
           <ul class="card__list">
-            <li>Refine your client communication — from emails to meetings — so it feels more natural, clear, and effective</li>
-            <li>Help you phrase things in a way that feels more appealing, persuasive, and valuable to your clients</li>
+            <li data-i18n="card3_li1">Refine your client communication — from emails to meetings — so it feels more natural, clear, and effective</li>
+            <li data-i18n="card3_li2">Help you phrase things in a way that feels more appealing, persuasive, and valuable to your clients</li>
           </ul>
         </article>
 
@@ -110,36 +117,36 @@
   <section class="section section--light" id="value">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__label">Why work with me</span>
-        <h2 class="section__title">The value I bring</h2>
+        <span class="section__label" data-i18n="value_label">Why work with me</span>
+        <h2 class="section__title" data-i18n="value_title">The value I bring</h2>
       </div>
-      <blockquote class="pullquote reveal">
+      <blockquote class="pullquote reveal" data-i18n="pullquote">
         "I can walk into a room and make conversations work."
       </blockquote>
       <div class="value__grid">
         <div class="value__item reveal">
           <span class="value__icon" aria-hidden="true"></span>
-          <p>Multilingual communication in Japanese, English, and Russian in real business settings</p>
+          <p data-i18n="value_item1">Multilingual communication in Japanese, English, and Russian in real business settings</p>
         </div>
         <div class="value__item reveal">
           <span class="value__icon" aria-hidden="true"></span>
-          <p>Strong interpersonal and networking skills</p>
+          <p data-i18n="value_item2">Strong interpersonal and networking skills</p>
         </div>
         <div class="value__item reveal">
           <span class="value__icon" aria-hidden="true"></span>
-          <p>Experience working in a Japanese corporate environment</p>
+          <p data-i18n="value_item3">Experience working in a Japanese corporate environment</p>
         </div>
         <div class="value__item reveal">
           <span class="value__icon" aria-hidden="true"></span>
-          <p>Ability to represent your business professionally in Japan</p>
+          <p data-i18n="value_item4">Ability to represent your business professionally in Japan</p>
         </div>
         <div class="value__item reveal">
           <span class="value__icon" aria-hidden="true"></span>
-          <p>A combination of sales, communication, and cultural understanding</p>
+          <p data-i18n="value_item5">A combination of sales, communication, and cultural understanding</p>
         </div>
         <div class="value__item reveal">
           <span class="value__icon" aria-hidden="true"></span>
-          <p>Focused on real outcomes and long-term relationships — not just translation, but results</p>
+          <p data-i18n="value_item6">Focused on real outcomes and long-term relationships — not just translation, but results</p>
         </div>
       </div>
     </div>
@@ -149,34 +156,34 @@
   <section class="section section--tinted" id="experience">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__label">Background</span>
-        <h2 class="section__title">Experience</h2>
+        <span class="section__label" data-i18n="exp_label">Background</span>
+        <h2 class="section__title" data-i18n="exp_title">Experience</h2>
       </div>
-      <p class="experience__intro reveal">I've worked across corporate and international environments, supporting communication across different industries.</p>
+      <p class="experience__intro reveal" data-i18n="exp_intro">I've worked across corporate and international environments, supporting communication across different industries.</p>
       <ul class="timeline">
         <li class="timeline__item reveal">
           <span class="timeline__dot"></span>
-          <p>9 years in a Japanese company with international subsidiaries — roles in HR, Overseas Project Development, and Corporate Strategy</p>
+          <p data-i18n="exp_li1">9 years in a Japanese company with international subsidiaries — roles in HR, Overseas Project Development, and Corporate Strategy</p>
         </li>
         <li class="timeline__item reveal">
           <span class="timeline__dot"></span>
-          <p>Business translation &amp; interpretation (JP / EN / RU)</p>
+          <p data-i18n="exp_li2">Business translation &amp; interpretation (JP / EN / RU)</p>
         </li>
         <li class="timeline__item reveal">
           <span class="timeline__dot"></span>
-          <p>Legal document translation</p>
+          <p data-i18n="exp_li3">Legal document translation</p>
         </li>
         <li class="timeline__item reveal">
           <span class="timeline__dot"></span>
-          <p>Interpreting at international events and exhibitions</p>
+          <p data-i18n="exp_li4">Interpreting at international events and exhibitions</p>
         </li>
         <li class="timeline__item reveal">
           <span class="timeline__dot"></span>
-          <p>Working with clients and teams from diverse cultural backgrounds</p>
+          <p data-i18n="exp_li5">Working with clients and teams from diverse cultural backgrounds</p>
         </li>
         <li class="timeline__item reveal">
           <span class="timeline__dot"></span>
-          <p>Media experience, including interpreting for Japanese TV programs</p>
+          <p data-i18n="exp_li6">Media experience, including interpreting for Japanese TV programs</p>
         </li>
       </ul>
     </div>
@@ -186,14 +193,14 @@
   <section class="section section--light" id="who">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__label">Clients</span>
-        <h2 class="section__title">Who I help</h2>
+        <span class="section__label" data-i18n="who_label">Clients</span>
+        <h2 class="section__title" data-i18n="who_title">Who I help</h2>
       </div>
       <div class="who__grid">
-        <div class="who__item reveal">Startups</div>
-        <div class="who__item reveal">Small businesses</div>
-        <div class="who__item reveal">Japanese companies expanding internationally</div>
-        <div class="who__item reveal">Overseas companies entering or operating in Japan</div>
+        <div class="who__item reveal" data-i18n="who_item1">Startups</div>
+        <div class="who__item reveal" data-i18n="who_item2">Small businesses</div>
+        <div class="who__item reveal" data-i18n="who_item3">Japanese companies expanding internationally</div>
+        <div class="who__item reveal" data-i18n="who_item4">Overseas companies entering or operating in Japan</div>
       </div>
     </div>
   </section>
@@ -202,18 +209,18 @@
   <section class="section section--dark" id="contact">
     <div class="container contact__inner">
       <div class="reveal">
-        <span class="section__label section__label--light">Contact</span>
-        <h2 class="contact__title">Let's talk.</h2>
-        <p class="contact__sub">Interested in working together? Reach out.</p>
+        <span class="section__label section__label--light" data-i18n="contact_label">Contact</span>
+        <h2 class="contact__title" data-i18n="contact_title">Let's talk.</h2>
+        <p class="contact__sub" data-i18n="contact_sub">Interested in working together? Reach out.</p>
         <div class="contact__links">
-          <a href="mailto:hello@unparadox.com" class="btn btn--outline">Email</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn--outline">LinkedIn</a>
+          <a href="mailto:hello@unparadox.com" class="btn btn--outline" data-i18n="contact_email">Email</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn--outline" data-i18n="contact_linkedin">LinkedIn</a>
         </div>
       </div>
     </div>
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2026 Unparadox &mdash; Tokyo, Japan</p>
+        <p data-i18n="footer_text">&copy; 2026 Unparadox &mdash; Tokyo, Japan</p>
       </div>
     </footer>
   </section>

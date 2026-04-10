@@ -226,6 +226,40 @@ em {
   transform: translateY(-1px);
 }
 
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-muted);
+  padding: 0.2rem 0.15rem;
+  transition: color var(--transition);
+}
+
+.lang-btn:hover {
+  color: var(--color-dark);
+}
+
+.lang-btn--active {
+  color: var(--color-accent);
+}
+
+.lang-divider {
+  font-size: 0.65rem;
+  color: var(--color-border);
+  user-select: none;
+}
+
 .nav__hamburger {
   display: flex;
   flex-direction: column;
@@ -312,7 +346,16 @@ em {
   font-size: clamp(1rem, 2vw, 1.2rem);
   color: var(--color-muted);
   line-height: 1.6;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.25rem;
+  max-width: 44ch;
+}
+
+.hero__motto {
+  font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+  font-weight: 800;
+  color: var(--color-accent);
+  line-height: 1.45;
+  margin-bottom: 2rem;
   max-width: 44ch;
 }
 
