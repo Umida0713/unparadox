@@ -472,7 +472,34 @@ em {
 }
 
 /* ================================
-   9. Value
+   9. Pricing Callout
+   ================================ */
+.pricing-callout {
+  margin-top: 3rem;
+  padding: 1.75rem 2rem;
+  background: var(--color-tinted);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+}
+
+.pricing-callout__label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.6rem;
+}
+
+.pricing-callout__body {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  max-width: 680px;
+}
+
+/* ================================
+   11. Value
    ================================ */
 .pullquote {
   font-size: clamp(1.3rem, 3vw, 2rem);
@@ -714,7 +741,7 @@ section[id] {
   }
 
   .services__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: start;
   }
 
