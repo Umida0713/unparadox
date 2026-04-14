@@ -12,7 +12,7 @@ const translations = {
     hero_eyebrow: 'Tokyo-based · JP · EN · RU',
     hero_heading: 'I help businesses<br /><em>communicate</em>, sell, and<br />represent their brand<br />in Japan.',
     hero_sub: 'Multilingual support in Japanese, English, and Russian — from client communication to on-the-ground representation.',
-    hero_motto: 'In a world of abundant choices, it makes perfect sense to choose UNPARADOX.',
+    hero_motto: 'In a world of endless options, choosing UNPARADOX is the obvious decision, because I help YOU become the obvious choice for your clients.',
     hero_cta: 'Get in Touch',
     about_label: 'About',
     about_title: 'A bridge between cultures, languages, and people.',
